@@ -9,14 +9,14 @@
             <onMismatch>DENY</onMismatch>
             <onMatch>ACCEPT</onMatch>
         </filter>
-		<file>C:\axiomodel2\log\trace.log</file>
+		<file>/Users/koolcool/aichipu/log/trace.log</file>
         <encoder>
             <pattern>%msg%n</pattern>
         </encoder>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily -->
-            <fileNamePattern>C:\axiomodel2\log\trace.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>/Users/koolcool/aichipu/log/trace.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10MB</maxFileSize>
@@ -33,14 +33,14 @@
             <onMismatch>DENY</onMismatch>
             <onMatch>ACCEPT</onMatch>
         </filter>
-        <file>C:\axiomodel2\log\general.log</file>
+        <file>/Users/koolcool/aichipu/log/general.log</file>
         <encoder>
             <pattern>%msg%n</pattern>
         </encoder>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily -->
-            <fileNamePattern>C:\axiomodel2\log\general.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>/Users/koolcool/aichipu/log/general.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10MB</maxFileSize>
@@ -55,14 +55,14 @@
             <onMismatch>DENY</onMismatch>
             <onMatch>ACCEPT</onMatch>
         </filter>
-        <file>C:\axiomodel2\log\sys.log</file>
+        <file>/Users/koolcool/aichipu/log/sys.log</file>
         <encoder>
             <pattern>%msg%n</pattern>
         </encoder>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily -->
-            <fileNamePattern>C:\axiomodel2\log\sys.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>/Users/koolcool/aichipu/log/sys.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10MB</maxFileSize>
